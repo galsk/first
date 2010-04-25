@@ -1,9 +1,7 @@
 <div id="header" class="round">
     <% logo = image_tag("logo.jpg", :alt => "Sample App", :class => "round") %>
   <%= link_to logo, root_path %>
-     <ul class="new_sms round">
-     <li><%= link_to "צור חדש", '#' %></li>
-     </ul>
+
      <ul class="navigation round">
           <li><%= link_to "הגרועים ביותר", worst_path %></li>
           <li><%= link_to "הטובים ביותר",  best_path %></li>

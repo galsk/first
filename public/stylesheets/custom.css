@@ -35,7 +35,7 @@ a {
 
 a:hover {
   color: #069;
-  text-decoration: underline;
+
 }
 
 a:visited {
@@ -74,7 +74,7 @@ ul.navigation {
 }
 
 .navigation li a:hover {
-  text-decoration: underline;
+
   color: black;
 }
 
@@ -82,6 +82,8 @@ ul.navigation {
 
 .new_sms {
   float: left;
+  margin-top: 7.5em;
+  margin-right: 30em;
 }
 
 .new_sms {
@@ -129,7 +131,7 @@ ul.new_sms {
 #footer {
   text-align: center;
   margin-top: 30px;
-  width: 300px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
 }

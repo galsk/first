@@ -8,8 +8,12 @@
   <body>
     <div class="container">
       <%= render 'layouts/header' %>
+      <ul class="new_sms round">
+         <li><%= link_to "צור חדש", '#' %></li>
+      </ul>
+      
       <div id="content" class="round">
-        <%= yield %>
+         <%= yield %>
       </div>
       <%= render 'layouts/footer' %>   
     </div>
