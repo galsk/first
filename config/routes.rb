@@ -44,6 +44,6 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/:action/:id.:format'
 
   map.newest '/newest', :controller => 'pages', :action => 'newest'
-  map.worst  '/worst',   :controller => 'pages', :action => 'best'
-  map.best   '/best',    :controller => 'pages', :action => 'worst'
+  map.worst  '/worst',   :controller => 'pages', :action => 'worst'
+  map.best   '/best',    :controller => 'pages', :action => 'best'
 end
