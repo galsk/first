@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   end
 
   def worst
-@title = "הגרועים ביותר"
+  @title = "הגרועים ביותר"
   end
 
 end

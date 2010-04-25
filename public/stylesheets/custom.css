@@ -1,0 +1,140 @@
+.container {
+  width: 830px;
+}
+
+body {
+  background: black;
+}
+
+#header {
+  padding-top: 20px;
+}
+
+#header img {
+  padding: 0.4em;
+  background: #fff;
+  float: right;
+  width: 15.25em; /* replaces 468px width */
+  height: 5.8em; /* replaces 60px height */
+}
+
+#content {
+  margin-top: 10em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+  text-align:right;
+}
+
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+/* Navigation */
+
+.navigation {
+  float: left;
+}
+
+.navigation {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+ul.navigation {
+  margin: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+.navigation li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.navigation li a:visited {
+  color: #09c;
+}
+
+.navigation li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* new sms */
+
+.new_sms {
+  float: left;
+}
+
+.new_sms {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+ul.new_sms {
+  margin: 1;
+
+}
+
+.new_sms li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+
+}
+
+.new_sms li a {
+  padding: 0 5px;
+  font-weight: bold;
+
+}
+
+.new_sms li a:visited {
+  color: #09c;
+}
+
+.new_sms li a:hover {
+  
+  color: red;
+}
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+}
+
+
+/*footer*/
+
+#footer {
+  text-align: center;
+  margin-top: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .navigation {
+  float: none;
+}
+
