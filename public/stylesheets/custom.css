@@ -9,7 +9,7 @@ body {
 #header {
  background: white; 
  padding-top: 20px;
- padding-bottom: 90px;
+ padding-bottom: 110px;
  
 }
 
@@ -17,8 +17,8 @@ body {
   
   background: #fff;
   float: right;
-  width: 15.25em; /* replaces 468px width */
-  height: 5.8em; /* replaces 60px height */
+  width: 20em; /* replaces 468px width */
+  height: 8em; /* replaces 60px height */
 }
 
 #menu
@@ -30,14 +30,27 @@ body {
 
 #content {
 
-  margin-top: 3.8em;
+  margin-top: 0em;
   margin-left:2em;
+  margin-right:14.2em;
   font-size: 120%;
   padding: 20px;
   background: #fff;
   text-align:right;
   width: 740px;
+  float:right;
 }
+
+#welcome {
+  background-color: #E56717;
+  margin-top: 1.5em;
+  padding: 0 0.7em;
+  white-space: nowrap;
+  text-align:right;
+  float:right;
+}
+
+
 
 /* Links */
 
@@ -59,7 +72,8 @@ a:visited {
 /* Navigation */
 
 .navigation {
-  float: left;
+  float: right;
+
 }
 
 .navigation {
@@ -70,7 +84,8 @@ a:visited {
 }
 
 ul.navigation {
-  margin-left: 25em;
+  margin-right: 0.1em;
+  margin-top: 3.5em;
 }
 
 .navigation li {
@@ -102,6 +117,8 @@ ul.navigation {
 
 .new_sms {
   float: left;
+
+
 }
 
 .new_sms {
@@ -112,6 +129,8 @@ ul.navigation {
 
 ul.new_sms {
   margin: 1;
+  margin-top:3.5em;
+  margin-left: 1em;
 
 }
 
@@ -160,10 +179,9 @@ ul.new_sms {
 }
 
 #footer .navigation {
-  float: auto;
+  float: left;
   background-color: #4A4344;
-  margin-left: 55em;
-  margin-right: auto;
+  margin-left: 50em;
 
 
   
