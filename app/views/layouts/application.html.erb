@@ -7,11 +7,11 @@
   </head>
   <body>
     <div class="container">
-      <%= render 'layouts/header' %>
-      <ul class="new_sms round">
-         <li><%= link_to "צור חדש", '#' %></li>
-      </ul>
       
+      <%= render 'layouts/header' %>
+      <%= render 'layouts/navmenu' %>
+      
+     
       <div id="content" class="round">
          <%= yield %>
       </div>

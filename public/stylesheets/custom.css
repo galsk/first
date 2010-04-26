@@ -1,5 +1,5 @@
 .container {
-  width: 830px;
+  width: auto;
 }
 
 body {
@@ -7,39 +7,53 @@ body {
 }
 
 #header {
-  padding-top: 20px;
+ background: white; 
+ padding-top: 20px;
+ padding-bottom: 90px;
+ 
 }
 
 #header img {
-  padding: 0.4em;
+  
   background: #fff;
   float: right;
   width: 15.25em; /* replaces 468px width */
   height: 5.8em; /* replaces 60px height */
 }
 
+#menu
+{
+  padding-top: 20px;
+  margin-left:2.4em;
+}
+
+
 #content {
-  margin-top: 10em;
+
+  margin-top: 3.8em;
+  margin-left:2em;
   font-size: 120%;
   padding: 20px;
   background: #fff;
   text-align:right;
+  width: 740px;
 }
 
 /* Links */
 
 a {
-  color: #09c;
+  color: orange;
   text-decoration: none;
+  
 }
 
 a:hover {
-  color: #069;
+  color: #E56717;
 
 }
 
 a:visited {
-  color: #069;
+  color: #E56717;
 }
 
 /* Navigation */
@@ -52,25 +66,31 @@ a:visited {
   background-color: white;
   padding: 0 0.7em;
   white-space: nowrap;
+  
 }
 
 ul.navigation {
-  margin: 0;
+  margin-left: 25em;
 }
 
 .navigation li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
+  padding: 0.1em 0.7em;
+  font-size: 200%;
+  font-family: times, times new roman, serif;
+
 }
 
 .navigation li a {
   padding: 0 5px;
   font-weight: bold;
+
+  color: #E56717;
 }
 
 .navigation li a:visited {
-  color: #09c;
+  color: #E56717;
 }
 
 .navigation li a:hover {
@@ -82,12 +102,10 @@ ul.navigation {
 
 .new_sms {
   float: left;
-  margin-top: 7.5em;
-  margin-right: 30em;
 }
 
 .new_sms {
-  background-color: white;
+  background-color: #E56717;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -100,23 +118,26 @@ ul.new_sms {
 .new_sms li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
-
+  padding: 0.1em 0.2em;
+  font-size: 200%;
+  font-family: times, times new roman, serif;
 }
 
 .new_sms li a {
   padding: 0 5px;
   font-weight: bold;
+  color: white;
 
 }
 
 .new_sms li a:visited {
-  color: #09c;
+  color: white;
 }
 
 .new_sms li a:hover {
   
-  color: red;
+  color: black;
+
 }
 /* Round corners */
 
@@ -129,14 +150,22 @@ ul.new_sms {
 /*footer*/
 
 #footer {
-  text-align: center;
+
+  text-align: auto;
   margin-top: 30px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 210px;
+  font-size: 7px;
+
+  
 }
 
 #footer .navigation {
-  float: none;
+  float: auto;
+  background-color: #4A4344;
+  margin-left: 55em;
+  margin-right: auto;
+
+
+  
 }
 
