@@ -187,8 +187,8 @@ ul.new_sms {
   float: left;
   background-color: #4A4344;
   margin-left: 50em;
-
-
-  
+  position: absolute; 
+  bottom: 0; 
+ 
 }
 
