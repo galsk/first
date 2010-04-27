@@ -7,9 +7,9 @@ body {
 }
 
 #header {
- background: white; 
- padding-top: 20px;
- padding-bottom: 110px;
+ background: #E56717; 
+ padding-top: 0px;
+ padding-bottom: 108px;
  
 }
 
@@ -18,7 +18,9 @@ body {
   background: #fff;
   float: right;
   width: 20em; /* replaces 468px width */
-  height: 8em; /* replaces 60px height */
+  height: 9em; /* replaces 60px height */
+  border-left: 4px solid black; 
+
 }
 
 #menu
@@ -30,24 +32,25 @@ body {
 
 #content {
 
-  margin-top: 0em;
+  margin-top: -6.3em;
   margin-left:2em;
-  margin-right:14.2em;
+  margin-right:17em;
   font-size: 120%;
-  padding: 20px;
+  padding: 29px;
   background: #fff;
   text-align:right;
-  width: 740px;
+  width:70%;
   float:right;
 }
 
 #welcome {
   background-color: #E56717;
-  margin-top: 1.5em;
-  padding: 0 0.7em;
+  margin-top: 7.3em;
+  padding: 0 1.2em;
   white-space: nowrap;
   text-align:right;
   float:right;
+  
 }
 
 
@@ -84,8 +87,8 @@ a:visited {
 }
 
 ul.navigation {
-  margin-right: 0.1em;
-  margin-top: 3.5em;
+  margin-right: 0.7em;
+  margin-top: 2em;
 }
 
 .navigation li {
@@ -116,7 +119,7 @@ ul.navigation {
 /* new sms */
 
 .new_sms {
-  float: left;
+  float: right;
 
 
 }
@@ -125,12 +128,14 @@ ul.navigation {
   background-color: #E56717;
   padding: 0 0.7em;
   white-space: nowrap;
+  
 }
 
 ul.new_sms {
   margin: 1;
-  margin-top:3.5em;
-  margin-left: 1em;
+  margin-top:2em;
+  margin-right: 0.5em;
+
 
 }
 
